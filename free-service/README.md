@@ -26,3 +26,5 @@ more artifacts here [com.sap.cds](https://mvnrepository.com/artifact/com.sap.cds
 ## Reference
 
 [Build business application using CAP for Java](https://developers.sap.com/mission.cap-java-app.html)
+
+[Setup Fiori](https://developers.sap.com/tutorials/fiori-tools-generate-project.html)
