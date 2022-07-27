@@ -7,3 +7,5 @@ using {freeservice.db as db} from '../db';
 service AdminService {
     entity Users as projection on db.Users;
 }
+
+annotate AdminService.Users with @odata.draft.enabled;
