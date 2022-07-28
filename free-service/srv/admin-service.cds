@@ -1,6 +1,3 @@
-namespace freeservice.srv;
-
-
 using {freeservice.db as db} from '../db';
 
 @path : 'Admin'

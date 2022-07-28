@@ -2,8 +2,17 @@
 spring:
   config.activate.on-profile: default
 cds:
+  datasource:
+    auto-config.enabled: false
   odata-v4:
     endpoint:
       path: "/api"
-  datasource:
-    auto-config.enabled: false
+  security.mock.users:
+    - name: user
+      password: user
+      roles:
+        - Customer
+    - name: admin
+      password: admin
+      roles:
+        - Administrator
