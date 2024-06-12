@@ -9,3 +9,5 @@ service AdminService {
     entity Article as projection on db.Article;
 //    action addArticle() returns Article;
 }
+
+annotate AdminService.Users with @odata.draft.enabled;
